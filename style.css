@@ -3,10 +3,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: './assets/fonts/static/Figtree-ExtraBold.ttf';
+    
   }
   
   body {
+ 
     background-color: #f7d44c; 
     display: flex;
     justify-content: center;
@@ -16,58 +17,72 @@
   .card {
     background-color: white;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 390px;
+   box-shadow: 1rem 7px 7px black;
+    width: 375px;
     text-align: center;
     padding: 20px;
     margin: 20px;
-  }
+    border:2px solid black;
+    }
   .card img{
     border-radius: 15px;
     height: 200px;
   }
   .card-header {
-    
+   
     background-color: #eedc19;
     color: black;
     font: bold;
     font-weight: 700;
-    padding: 5px;
+    padding: 6px;
     font-size: 1rem;
     border-radius:10px ;
+    width: 90px;
+   
   }
   
-  .card-content {
-   
-    padding: 10px;
+  .card-content p{
+    text-align: left;   
+    padding: 10px;   
   }
   
   .date {
+    
+    text-align: left;
     color: gray;
     font-size: 0.9em;
   }
   
   .title {
+    text-align: left;
     font-size: 1.5em;
     color: #121211;
-    margin: 10px 0;
+    margin: 10px;
   }
-  
+  h1 {
+    text-align: left;
+    display: block;
+    font-size: 2em;
+    unicode-bidi: isolate;
+}
   .description {
+   text-align: left;
     font-size: 1em;
-    color: #333;
-    margin: 10px 0;
+    color: #9b9b9b;
+ 
   }
   
   .author {
-    font-family: "./assets/fonts/static/Figtree-SemiBold.ttf";
-    font-size: 1.1em;
+     font-size: 1.1em;
     color: #000;
     font-weight: 700;
+    text-align: left;
   }
   .author .img{
       width:45px;
       height: 55px;
+      overflow-clip-margin: content-box;
+      overflow: clip;
   }
   .attribution {
     text-align: center;
